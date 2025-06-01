@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first_test", "first_test\first_test.csproj", "{A15C4488-07B9-4BEB-AEC9-3CDE3C852144}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexInCsharp", "first_test\RegexInCsharp.csproj", "{A15C4488-07B9-4BEB-AEC9-3CDE3C852144}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
