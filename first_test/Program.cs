@@ -4,14 +4,14 @@ class Program
 {
     public static void Main()
     {
-        
-            string input = "1234567890";
-            string pattern = @"\d{10}";
-        
+        string input = "Phone: 9876543210 and 1234567890";
+        string pattern = @"\d{10}";
 
-            bool isMobile = Regex.IsMatch(input, pattern);
+        MatchCollection matches = Regex.Matches(input, pattern);
 
-            Console.WriteLine(isMobile);  
-        
+        foreach (Match m in matches)
+        {
+            Console.WriteLine("Found: " + m.Value);
+        }
     }
 }
