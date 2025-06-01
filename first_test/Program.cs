@@ -5,8 +5,8 @@ class Program
     public static void Main()
     {
         
-            string input = " t ";
-            string pattern = @"\s{1}";
+            string input = "1234567890";
+            string pattern = @"\d{10}";
         
 
             bool isMobile = Regex.IsMatch(input, pattern);
